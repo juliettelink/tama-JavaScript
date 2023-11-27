@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cours javascript - octobre 2023
 
 ## Présentation
@@ -27,3 +28,6 @@ Durant ces lives nous allons faire uniquement du javascript, le code HTML et CSS
 | 06     | 11/12/2023 | 10h - 11h | On code notre tamagotchi | Pas encore disponible                       |
 
 ## Ressources
+=======
+# tama-JavaScript
+>>>>>>> c7bcee448b107bdb4ea84366af2826c65f03fed3
