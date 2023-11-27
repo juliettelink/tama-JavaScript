@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tama</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="vitals hidden js-vitals">
+      <ul class="vitals__list">
+        <li class="vitals__item">
+          <p class="vitals__subtitle ">Faim</p>
+          <p class="vitals__number  js-score js-score--eat">0</p>
+          <p class="vitals__mention">/ 5</p>
+        </li>
+        <li class="vitals__item">
+          <p class="vitals__subtitle ">Envie de jouer</p>
+          <p class="vitals__number js-score js-score--play">0</p>
+          <p class="vitals__mention">/ 5</p>
+        </li>
+        <li class="vitals__item">
+          <p class="vitals__subtitle ">Propreté</p>
+          <p class="vitals__number js-score js-score--clean">0</p>
+          <p class="vitals__mention">/ 5</p>
+        </li>
+        <li class="vitals__item">
+          <p class="vitals__subtitle">Humeur</p>
+          <p class="vitals__number">0</p>
+          <p class="vitals__mention">/ 5</p>
+        </li>
+        <li class="vitals__item">
+          <p class="vitals__subtitle">Durée de vie</p>
+          <p class="vitals__number">0</p>
+          <p class="vitals__mention">de <span class="js-tamaName"></span></p>
+        </li>
+      </ul>
+    </div>
+    <div class="tama">
+      <div class="tama__container">
+        <h1 class="tama__title">
+          Mon <br />
+          Tama&nbsp;!
+        </h1>
+        <div class="tama__screen">
+          <ul class="tama__container-actions js-actions hidden">
+            <li class="tama__actions">🍖</li>
+            <li class="tama__actions">🎳</li>
+            <li class="tama__actions">🚽</li>
+            <li class="tama__actions">🧽</li>
+          </ul>
+          <div class="tama__character js-character">🥚</div>
+        </div>
+        <div class="tama__container-buttons">
+          <button class="tama__button js-button" data-direction="left"></button>
+          <button class="tama__button js-button" data-direction="center"></button>
+          <button class="tama__button js-button" data-direction="right"></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
